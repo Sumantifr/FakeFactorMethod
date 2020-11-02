@@ -39,6 +39,6 @@ sed -i 's#analysis.*#analysis ="'${PASS}'_'${FAIL}'_'${ERA}'_'${EXT}'";#g' Vienn
 # sed -i 's#DEBUG=0#DEBUG    ='1'#g' ViennaTool/Settings.h
 
 make -B
-cd ViennaTool
-cp BuildStructure_template.sh BuildStructure.sh
-echo -ne '\n' | ./steerAll.sh 1
+#cd ViennaTool
+#cp BuildStructure_template.sh BuildStructure.sh
+#echo -ne '\n' | ./steerAll.sh 1
